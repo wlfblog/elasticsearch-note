@@ -1,2 +1,2 @@
 # elasticsearch-note
-elasticsearch 使用
+- [elasticsearch 用法](./elasticsearch usage)
