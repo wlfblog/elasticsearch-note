@@ -1,4 +1,4 @@
-## index template使用
+## index template and dynamic_templates使用
 
 - create templates
 ```
@@ -65,4 +65,5 @@ curl 'host:9200/tttt1/_mapping?pretty'
 
 ```
 
-[1,官网地址](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html)
+[1](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html)
+[2](https://www.elastic.co/guide/en/elasticsearch/guide/current/custom-dynamic-mapping.html#custom-dynamic-mapping)
