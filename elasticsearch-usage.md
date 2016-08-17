@@ -1,4 +1,3 @@
-[TOC]
 
 ## ElasticSearch 相关配置和优化
  查看索引的setting  
@@ -113,3 +112,4 @@ curl -XPOST 'host:9200/tests/t/_search?pretty' -d '{
 	}
 }'
 ```
+
