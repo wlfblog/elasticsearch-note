@@ -65,5 +65,6 @@ curl 'host:9200/tttt1/_mapping?pretty'
 
 ```
 
-[1 indices templates](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html)  
-[2 dynamic templates](https://www.elastic.co/guide/en/elasticsearch/guide/current/custom-dynamic-mapping.html#custom-dynamic-mapping)  
+- 参考
+[1 https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html)  
+[2 https://www.elastic.co/guide/en/elasticsearch/guide/current/custom-dynamic-mapping.html#custom-dynamic-mappin](https://www.elastic.co/guide/en/elasticsearch/guide/current/custom-dynamic-mapping.html#custom-dynamic-mapping)  
