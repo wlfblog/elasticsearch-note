@@ -1,3 +1,4 @@
+## index template使用
 - create templates
 ```
 curl -XPUT 'host:9200/_template/template_1?pretty' -d '
