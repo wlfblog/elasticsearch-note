@@ -1,4 +1,5 @@
 ## index template使用
+
 - create templates
 ```
 curl -XPUT 'host:9200/_template/template_1?pretty' -d '
@@ -64,4 +65,4 @@ curl 'host:9200/tttt1/_mapping?pretty'
 
 ```
 
-
+[1,官网地址](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html)
