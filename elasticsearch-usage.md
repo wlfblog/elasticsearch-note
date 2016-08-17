@@ -1,3 +1,5 @@
+[TOC]
+
 ## ElasticSearch 相关配置和优化
  查看索引的setting  
 ```
