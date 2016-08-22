@@ -17,7 +17,7 @@ curl -XPUT 'host:9200/_template/template_1?pretty' -d '
               "match_mapping_type": "string",
               "mapping": {
                 "type": "string",
-                "analyzer": "not_analyzed"
+                "index": "not_analyzed"
               }
             }
           }
