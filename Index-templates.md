@@ -64,6 +64,7 @@ curl 'host:9200/tttt1/_mapping?pretty'
 }
 
 ```
+ 
 
 - 参考  
 [1 https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-templates.html)  
