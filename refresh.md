@@ -10,5 +10,6 @@ curl -XPOST 'http://localhost:9200/_refresh'
 curl -XPUT 'localhost:9200/session_log_20160825/_settings?pretty' -d '{
     "index" : {
         "refresh_interval" : "5s"
-    } }'
+    } 
+}'
 ```
