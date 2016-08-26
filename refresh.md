@@ -7,7 +7,7 @@ curl -XPOST 'http://localhost:9200/_refresh'
 
 - 修改定时refresh间隔
 ```
-curl -XPUT '10.183.96.130:9200/session_log_20160825/_settings?pretty' -d '{
+curl -XPUT 'localhost:9200/session_log_20160825/_settings?pretty' -d '{
     "index" : {
         "refresh_interval" : "5s"
     } }'
