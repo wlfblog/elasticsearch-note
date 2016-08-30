@@ -42,6 +42,8 @@ curl -XPOST 'host:9200/test/_search?pretty' -d '{
 ```
 
 ### 通配符
+- rest查询  
+
 ```
 curl -XPOST 'host:9200/test/_search?pretty' -d '{
   "query" : {
@@ -49,6 +51,13 @@ curl -XPOST 'host:9200/test/_search?pretty' -d '{
   }
 }'  
 ```
+
+- sql sql插件支持该类型
+
+```
+select * from test where name like '*好北%'
+```
+
 
 - 其他用法见官网  
 [https://www.elastic.co/guide/en/elasticsearch/reference/2.3/query-dsl-regexp-query.html](https://www.elastic.co/guide/en/elasticsearch/reference/2.3/query-dsl-regexp-query.html)
