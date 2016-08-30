@@ -53,7 +53,6 @@ curl -XPOST 'host:9200/test/_search?pretty' -d '{
 ```
 
 - sql sql插件支持该类型
-
 ```
 select * from test where name like '*好北%'
 ```
