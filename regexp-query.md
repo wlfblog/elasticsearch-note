@@ -24,6 +24,7 @@ curl -XPUT "http://host:9200/test?pretty" -d '
 ## 实现方式
 
 ### 正则表达式
+
 - java查询  
 ```
 public void containQuery(String input){
@@ -43,6 +44,7 @@ curl -XPOST 'host:9200/test/_search?pretty' -d '{
 ```
 
 ### 通配符
+
 - rest查询  
 
 ```
