@@ -22,6 +22,7 @@ curl -XPUT "http://host:9200/test?pretty" -d '
 }'
 ```
 ## 实现方式
+
 ### 正则表达式
 - java查询  
 ```
