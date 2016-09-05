@@ -16,5 +16,5 @@ Configuration conf = new Configuration();
 conf.setBoolean("mapreduce.job.user.classpath.first",true);
 ```
 
-- 参考链接
+- 参考链接  
 [hadoop文档](http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduce_Compatibility_Hadoop1_Hadoop2.html)
