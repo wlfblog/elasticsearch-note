@@ -8,7 +8,7 @@ elasticsearch依赖的guava版本是13 hadoop包是11.
 <property>
         <name>mapreduce.job.user.classpath.first</name>
         <value>true</value>
-    </property>
+</property>
 ```
 - 客户端在提交job时设置
 ```
