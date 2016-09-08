@@ -24,10 +24,11 @@ curl -XPUT 'host:9200/testobject/settings?pretty' -d '{
 ```
 - 设置对存储进行限流 默认是20mb 增加es写入性能  
 ```
-curl -XPUT 'host:9200/cluster/settings?pretty' -d '{
-"persistent" : {
-"indices.store.throttle.maxbytes_per_sec" : "100mb"
-}
+curl -XPUT 'HOST:9200/_cluster/settings?pretty' -d '
+{
+    "persistent" : {
+        "indices.store.throttle.max_bytes_per_sec" : "100mb"
+    }
 }'
 ```
 
