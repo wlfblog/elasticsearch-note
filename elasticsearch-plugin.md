@@ -9,5 +9,5 @@
 
 - install graph on windows
 ```
->bin\kibana.bat plugin --install graph --url graph-2.3.5.tar.gz
+>bin\kibana.bat plugin --install graph --url file:graph-2.3.5.tar.gz
 ```
