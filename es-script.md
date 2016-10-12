@@ -12,3 +12,24 @@ POST /index/_search
   }
 }
 ```
+
+- script params java usage
+
+```
+String[] types = {"a", "b"};
+Map<String, Object> params = new HashedMap();
+params.put("types", types);
+String script = "doc['type'].value in types ? '1':'0'";
+//agg
+TermsBuilder video_type = AggregationBuilders.terms("type")
+  .script(new Script(script, ScriptService.ScriptType.INLINE, "groovy", params));
+
+//filter
+.....
+
+//scriptField
+......
+
+```
+
+
