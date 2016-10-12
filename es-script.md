@@ -33,3 +33,22 @@ TermsBuilder video_type = AggregationBuilders.terms("type")
 ```
 
 
+- 这里有个bug
+
+```
+        String script = "shorts.contains(doc['"+type+"'].value)"; // 1
+        //String script = "doc['"+type+"'].value in shorts";         // 2
+        Map<String, Object> params = new HashedMap();
+        Set<String> set = new HashSet<>();
+        set.add("a");
+        set.add("b");
+        params.put("shorts", set);
+        //when use script 1  "took" : 398008
+        //when use script 2  "took" : 2001
+        //改问题没有解决 官网的给的答案： no idea - some groovy weirdness. Groovy is deprecated. I suggest looking at the new scripting language Painless which is coming in 5.0
+```  
+
+
+
+
+
