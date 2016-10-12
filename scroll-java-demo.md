@@ -90,3 +90,9 @@ private String assemble() {
 ```
 
 
+https://www.elastic.co/guide/en/elasticsearch/reference/current/search-shards.html
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-scroll.html
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-preference.html
+
