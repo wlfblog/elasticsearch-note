@@ -21,7 +21,7 @@ public void testScroll() throws Exception {
     }
 ```
 
-- hadoop mr inputformat rest scroll 用法 源码如下
+- hadoop mr inputformat rest scroll 用法 源码如下 org.elasticsearch.hadoop.rest.QueryBuilder
 
 ```
 private String assemble() {
